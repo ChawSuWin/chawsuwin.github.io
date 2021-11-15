@@ -1,0 +1,129 @@
+
+Chaw@DESKTOP-DVP2RDN MINGW64 /d/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Chaw@DESKTOP-DVP2RDN MINGW64 /d/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb
+$ git init
+Initialized empty Git repository in D:/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb/.git/
+
+Chaw@DESKTOP-DVP2RDN MINGW64 /d/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb (master)
+$ git add .
+warning: LF will be replaced by CRLF in assets/font/fonts/fontawesome-webfont.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/font/fonts/glyphicons-halflings-regular.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/img/loading-cylon-red.svg.
+The file will have its original line endings in your working directory
+
+Chaw@DESKTOP-DVP2RDN MINGW64 /d/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb (master)
+$ git commit -m 'first init - design template'
+[master (root-commit) d62658f] first init - design template
+ 67 files changed, 8520 insertions(+)
+ create mode 100644 assets/css/animate.min.css
+ create mode 100644 assets/css/baguetteBox.css
+ create mode 100644 assets/css/bootstrap.min.css
+ create mode 100644 assets/css/isotope-docs.css
+ create mode 100644 assets/css/style.css
+ create mode 100644 assets/font/css/font-awesome.min.css
+ create mode 100644 assets/font/fonts/fontawesome-webfont.eot
+ create mode 100644 assets/font/fonts/fontawesome-webfont.svg
+ create mode 100644 assets/font/fonts/fontawesome-webfont.ttf
+ create mode 100644 assets/font/fonts/fontawesome-webfont.woff
+ create mode 100644 assets/font/fonts/fontawesome-webfont.woff2
+ create mode 100644 assets/font/fonts/glyphicons-halflings-regular.eot
+ create mode 100644 assets/font/fonts/glyphicons-halflings-regular.svg
+ create mode 100644 assets/font/fonts/glyphicons-halflings-regular.ttf
+ create mode 100644 assets/font/fonts/glyphicons-halflings-regular.woff
+ create mode 100644 assets/font/fonts/glyphicons-halflings-regular.woff2
+ create mode 100644 assets/img/AjaxLoader.gif
+ create mode 100644 assets/img/about-img.jpg
+ create mode 100644 assets/img/blog1.jpg
+ create mode 100644 assets/img/blog2.jpg
+ create mode 100644 assets/img/blog3.jpg
+ create mode 100644 assets/img/contact-bg.jpg
+ create mode 100644 assets/img/dan-4.png
+ create mode 100644 assets/img/ficon.png
+ create mode 100644 assets/img/footer-bg.jpg
+ create mode 100644 assets/img/gallery/emp-1.jpg
+ create mode 100644 assets/img/gallery/emp-10.jpg
+ create mode 100644 assets/img/gallery/emp-11.jpg
+ create mode 100644 assets/img/gallery/emp-12.jpg
+ create mode 100644 assets/img/gallery/emp-2.jpg
+ create mode 100644 assets/img/gallery/emp-3.jpg
+ create mode 100644 assets/img/gallery/emp-4.jpg
+ create mode 100644 assets/img/gallery/emp-5.jpg
+ create mode 100644 assets/img/gallery/emp-6.jpg
+ create mode 100644 assets/img/gallery/emp-7.jpg
+ create mode 100644 assets/img/gallery/emp-8.jpg
+ create mode 100644 assets/img/gallery/emp-9.jpg
+ create mode 100644 assets/img/grabbing.png
+ create mode 100644 assets/img/header.jpg
+ create mode 100644 assets/img/header2.jpg
+ create mode 100644 assets/img/header4.jpg
+ create mode 100644 assets/img/loading-cylon-red.svg
+ create mode 100644 assets/img/logo1.png
+ create mode 100644 assets/img/services-bg.jpg
+ create mode 100644 assets/img/services-img.jpg
+ create mode 100644 assets/img/team-bg.jpg
+ create mode 100644 assets/img/team-img1.jpg
+ create mode 100644 assets/img/team-img2.jpg
+ create mode 100644 assets/img/team-img3.jpg
+ create mode 100644 assets/img/team-img4.jpg
+ create mode 100644 assets/js/baguetteBox.js
+ create mode 100644 assets/js/bootstrap.min.js
+ create mode 100644 assets/js/creative.js
+ create mode 100644 assets/js/isotope-docs.min.js
+ create mode 100644 assets/js/jquery.easing.min.js
+ create mode 100644 assets/js/jquery.fittext.js
+ create mode 100644 assets/js/jquery.js
+ create mode 100644 assets/js/jquery.nicescroll.min.js
+ create mode 100644 assets/js/plugins.js
+ create mode 100644 assets/js/wow.min.js
+ create mode 100644 assets/owl-carousel/AjaxLoader.gif
+ create mode 100644 assets/owl-carousel/grabbing.png
+ create mode 100644 assets/owl-carousel/owl.carousel.css
+ create mode 100644 assets/owl-carousel/owl.carousel.js
+ create mode 100644 assets/owl-carousel/owl.theme.css
+ create mode 100644 blog-single.html
+ create mode 100644 index.html
+
+Chaw@DESKTOP-DVP2RDN MINGW64 /d/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb (master)
+$ git log
+commit d62658f584c0af399bd424c5928ecc8b8c35359e (HEAD -> master)
+Author: Chaw Su Win <chawsuw@gmail.com>
+Date:   Tue Nov 16 00:53:43 2021 +0630
+
+    first init - design template
+
+Chaw@DESKTOP-DVP2RDN MINGW64 /d/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Chaw@DESKTOP-DVP2RDN MINGW64 /d/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb (master)
+$ git remote add origin https://github.com/ChawSuWin/chawsuwin.github.io.git
+
+Chaw@DESKTOP-DVP2RDN MINGW64 /d/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb (master)
+$ git branch -M main
+
+Chaw@DESKTOP-DVP2RDN MINGW64 /d/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb (main)
+$
+
+Chaw@DESKTOP-DVP2RDN MINGW64 /d/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb (main)
+$
+
+Chaw@DESKTOP-DVP2RDN MINGW64 /d/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb (main)
+$ git push -u origin main
+Enumerating objects: 76, done.
+Counting objects: 100% (76/76), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (75/75), done.
+Writing objects: 100% (76/76), 1.75 MiB | 1.65 MiB/s, done.
+Total 76 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ChawSuWin/chawsuwin.github.io.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Chaw@DESKTOP-DVP2RDN MINGW64 /d/CSW Learning/BMPS/Laravel/Git Lessons/Git Website/creativeWeb (main)
+$
